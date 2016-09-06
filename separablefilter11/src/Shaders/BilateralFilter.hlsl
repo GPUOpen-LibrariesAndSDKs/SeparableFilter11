@@ -29,7 +29,7 @@
 // filter macros to perform custom filters.
 //--------------------------------------------------------------------------------------
 
-#include "..\\..\\..\\AMD_SDK\\src\\Shaders\\SeparableFilter\\FilterCommon.hlsl"
+#include "..\\..\\..\\AMD_LIB\\src\\Shaders\\SeparableFilter\\FilterCommon.hlsl"
 
 // Defines
 #define PI                      ( 3.1415927f )
@@ -244,9 +244,9 @@ struct KernelData
 //--------------------------------------------------------------------------------------
 // Include the filter kernel logic that uses the above macros
 //--------------------------------------------------------------------------------------
-#include "..\\..\\..\\AMD_SDK\\src\\Shaders\\SeparableFilter\\FilterKernel.hlsl"
-#include "..\\..\\..\\AMD_SDK\\src\\Shaders\\SeparableFilter\\HorizontalFilter.hlsl"
-#include "..\\..\\..\\AMD_SDK\\src\\Shaders\\SeparableFilter\\VerticalFilter.hlsl"
+#include "..\\..\\..\\AMD_LIB\\src\\Shaders\\SeparableFilter\\FilterKernel.hlsl"
+#include "..\\..\\..\\AMD_LIB\\src\\Shaders\\SeparableFilter\\HorizontalFilter.hlsl"
+#include "..\\..\\..\\AMD_LIB\\src\\Shaders\\SeparableFilter\\VerticalFilter.hlsl"
 
 
 //--------------------------------------------------------------------------------------
