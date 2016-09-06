@@ -1,5 +1,5 @@
 # AMD Separable Filter Sample
-<img src="separablefilter11/media/Thumbnail.png" width="480" height="280" />
+<img src="separablefilter11/media/Thumbnail.png" width="480" height="284" />
 
 The SeparableFilter11 DirectX 11 sample presents a technique for achieving highly optimized, user-defined separable filters. It utilizes Direct3D 11 APIs and hardware to make use of DirectCompute 5.0 to greatly accelerate this common post processing technique. Included in the sample are implementations for the classic Gaussian filter, and also a fairly simple bilateral filter, but the shader and source code have been setup to allow the user to add their own different filters, with the minimum of fuss. The application implements both a Compute Shader and Pixel Shader path, so that the performance gains achieved through using DirectCompute can be measured.
 
